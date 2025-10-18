@@ -7,7 +7,131 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<!-- Project cleared. Add your HTML here to start from zero. -->
+	<header class="site-header">
+		<div class="header-left">
+			<button class="menu-btn" type="button" aria-label="menu">☰</button>
+			<div class="logo">CodeTube</div>
+		</div>
 
+		<form class="search" role="search" aria-label="Site search">
+			<input type="search" name="q" placeholder="Search" aria-label="Search videos">
+			<button type="submit" aria-label="Search">🔍</button>
+		</form>
+
+		<div class="header-right">
+			<button class="icon" type="button" aria-label="notifications">🔔</button>
+			<button class="icon" type="button" aria-label="settings">⚙️</button>
+			<div class="avatar" aria-hidden="true">U</div>
+		</div>
+	</header>
+
+	<div class="app">
+		<aside class="sidebar">
+			<nav class="nav">
+				<h3>Library</h3>
+				<ul>
+					<li><a href="#">Subscriptions</a></li>
+					<li><a href="#">Playlists</a></li>
+					<li><a href="#">History</a></li>
+					<li><a href="#">Notes</a></li>
+				</ul>
+
+				<h4>Playlists</h4>
+				<ul class="playlists">
+					<li><a href="#">Playlist 1</a></li>
+					<li><a href="#">Playlist 2</a></li>
+					<li><a href="#">Playlist 3</a></li>
+				</ul>
+			</nav>
+		</aside>
+
+		<main class="main">
+			<section class="controls">
+				<h2>Recommended</h2>
+				<div class="filter">Showing videos from your playlists</div>
+			</section>
+
+			<section class="videos">
+				<!-- Repeated video card (copy/paste as needed) -->
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 1 — Intro to CSS Grid</h3>
+						<div class="channel">CodeInstructor • 12K views • 2 weeks ago</div>
+					</div>
+				</article>
+
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 1 — Flexbox Deep Dive</h3>
+						<div class="channel">CodeInstructor • 8.4K views • 1 month ago</div>
+					</div>
+				</article>
+
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 2 — Responsive Layouts</h3>
+						<div class="channel">UI Academy • 23K views • 3 days ago</div>
+					</div>
+				</article>
+
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 2 — Accessibility Basics</h3>
+						<div class="channel">UI Academy • 3.2K views • 4 weeks ago</div>
+					</div>
+				</article>
+
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 3 — JavaScript Patterns</h3>
+						<div class="channel">DevTips • 50K views • 6 months ago</div>
+					</div>
+				</article>
+
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 3 — Performance Optimization</h3>
+						<div class="channel">DevTips • 18K views • 2 months ago</div>
+					</div>
+				</article>
+
+				<!-- more sample cards to fill the grid -->
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 1 — Advanced Selectors</h3>
+						<div class="channel">CodeInstructor • 1.2K views • 1 year ago</div>
+					</div>
+				</article>
+
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 2 — UI Patterns</h3>
+						<div class="channel">UI Academy • 9.6K views • 3 weeks ago</div>
+					</div>
+				</article>
+
+				<article class="video-card">
+					<div class="thumb" aria-hidden="true"></div>
+					<div class="meta">
+						<h3 class="title">Playlist 3 — Debugging Tips</h3>
+						<div class="channel">DevTips • 4.9K views • 5 days ago</div>
+					</div>
+				</article>
+
+			</section>
+		</main>
+	</div>
+
+	<footer class="site-footer" aria-hidden="true">
+		<div>© CodeTube</div>
+	</footer>
 </body>
 </html>
